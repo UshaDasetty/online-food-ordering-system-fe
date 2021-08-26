@@ -1,0 +1,115 @@
+.header{
+
+    height: 80px;
+    margin: 0 0 37px;
+    position: absolute;
+    padding: 15px ;
+    top:0;
+    width: 100%;
+
+}
+
+.loginSection{
+    text-align: right;
+}
+
+.logoSection{
+    
+}
+
+.logo-small{
+    width: 45px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    color: #eb2929;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login-button{
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 5px;
+    line-height: 38px;
+    padding: 0 10px;
+    color: white;
+    margin-right: 15px;
+    
+}
+
+.signup-button{
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 5px;
+    line-height: 38px;
+    padding: 0 10px;
+    color: white;
+    
+}
+
+.popup-heading {
+    height: 43px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color:#192f60;
+    border-radius: 50%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.my-facebook-button-class{
+    width: 398px;
+    height: 50px;
+    padding: 5px !important;
+    border-radius: 6px !important;
+    border: solid 2px #c7c7c7 !important;
+    background: #ffffff !important;
+    opacity: 0.8 !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color:#192f60 !important;
+    text-align: center;
+    cursor: pointer;
+    flex-direction: row !important;
+    justify-content: center !important;
+    box-shadow: none !important;
+    margin-bottom: 6px;
+}
+
+.my-facebook-button-class .fa-facebook {
+    margin-right: 15px;
+    background: #192f60;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    padding: 2px;
+    color: white;
+    line-height: 24px;
+}
+
+.login-btn{
+    color: #ffffff;
+}
+
+.text-bottom {
+    color: #192f60 ;
+    text-align: center;
+}

@@ -1,0 +1,77 @@
+.searchSection{
+    position: relative;
+    display: inline-block;
+}
+
+.suggestionBox{
+    position: absolute;
+    background: white;
+    list-style: none;
+    padding: 0;
+    border-radius: 5px;
+    width: 450px;
+    top: 49px;
+    right: 0;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    max-height: 220px;
+    overflow-y: scroll;
+}
+
+.suggestionItem{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+    cursor: pointer;
+}
+
+.suggestionImage{
+    display: inline-block;
+}
+
+.suggestionImage img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.suggestionText{
+    display: inline-block;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.suggestionTextName{
+    height: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.suggestionTextLocality{
+    height: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.orderButton{
+    display: inline-block;
+    /* float: right; */
+    position: absolute;
+    right: 15px;
+}

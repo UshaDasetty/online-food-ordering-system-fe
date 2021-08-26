@@ -1,0 +1,136 @@
+
+body{
+	max-width: 100%;
+}
+.QSheader{
+	  width: 239px;
+	  height: 43px;
+	  margin: 48px 151px 7px 113px;
+	  font-family: 'Poppins', sans-serif;
+	  font-size: 30px;
+	  font-weight: bold;
+	  font-stretch: normal;
+	  font-style: normal;
+	  line-height: 1.53;
+	  letter-spacing: normal;
+	  text-align: left;
+	  color: #192f60;
+}
+.subheading{
+	  width: 331px;
+	  height: 25px;
+	  margin: 7px 59px 33px 113px;
+	 font-family: 'Poppins', sans-serif;
+	  font-size: 18px;
+	  font-weight: normal;
+	  font-stretch: normal;
+	  font-style: normal;
+	  line-height: 1.5;
+	  letter-spacing: normal;
+	  text-align: left;
+	  color: #8c96ab;
+}
+.qs-box{
+	  height: 180px;
+	  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	  background-color: #ffffff;
+}
+.topSection {
+	    position: absolute;
+	    top: 100px;
+	    text-align: center;
+}
+.logo {
+    width: 110px;
+    height: 110px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    color: #eb2929;
+    margin: auto;
+    background: white;
+    border-radius: 50%;
+}
+.desc-text {
+  height: 51px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.location { 
+    width: 245px;
+    height: 45px;
+    margin: 0 21px 0 0;
+    padding: 10px;
+    background-color: #ffffff;
+    font-size: 17px;
+    color: grey;
+}
+.search {
+    width: 450px;
+    height: 45px;
+    /* margin: 8px; */
+    background-color: #ffffff;
+    padding-left: 30px;
+    font-size: 17px;
+    color: grey;
+}
+.qs-box-item img{
+	  width: 160px;
+	  height: 160px;
+	  margin: 5px;
+	  margin-left: 0px;
+}
+.qs-box-item h4{
+	    position: absolute;
+	    left: 190px;
+	    top: 20px;
+	    height: 25px;
+	    font-family: 'Poppins', sans-serif;
+	    font-size: 18px;
+	    font-weight: 600;
+	    font-stretch: normal;
+	    font-style: normal;
+	    line-height: 1.5;
+	    letter-spacing: normal;
+	    text-align: left;
+	    color: #192f60;
+}
+.qs-box-item p{
+		 position: absolute;
+	    left: 190px;
+	    top: 60px;
+	    width: 150px;
+	    font-family: 'Poppins', sans-serif;
+	    font-size: 16px;
+	    font-weight: 500;
+	    font-stretch: normal;
+	    font-style: normal;
+	    line-height: 1.5;
+	    letter-spacing: normal;
+	    text-align: left;
+	    color: #8c96ab;
+}
+.qs-box-item{
+	margin: 10px;
+    height: 160px;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+
+    
