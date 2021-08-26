@@ -254,7 +254,7 @@ class Filter extends Component {
                                         ?
                                         restaurantLists.map((item, index) => {
                                             return(
-                                                <div key={index} className="result" onClick={()=>this.navigateToRestaurant(item)}>
+                                                <div key={index} className="result" onClick={()=>this.navigateToRestaurant(item) }>
 
                                                 <div className="result-top row">
                                                     <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4">
