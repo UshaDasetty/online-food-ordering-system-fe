@@ -155,7 +155,7 @@ class Filter extends Component {
             headers: {'Content-Type': 'application/json'},
             data: req
         }).then(result => {
-            debugger
+            //debugger
             const totalResults = result.data.totalResultsCount;
             const pageSize = result.data.pageSize;
             const noOfPages = Math.floor((totalResults/pageSize));
@@ -185,6 +185,10 @@ class Filter extends Component {
             pages.push(<div key={i} onClick={() => this.handlePageChange(i+1)} className="Pagination-btn">{i+1}</div>)
         }
         return pages;
+    }
+
+    navigateToRestaurant= (rest) => {
+        this.props.history.push(`/details?rest_id=${rest._id}`)
     }
 
     render() {
@@ -250,7 +254,7 @@ class Filter extends Component {
                                         ?
                                         restaurantLists.map((item, index) => {
                                             return(
-                                                <div key={index} className="result" onClick={() => this.goToRestaurant(item)}>
+                                                <div key={index} className="result" onClick={()=>this.navigateToRestaurant(item)}>
 
                                                 <div className="result-top row">
                                                     <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4">

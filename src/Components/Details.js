@@ -34,7 +34,7 @@ export default class Details extends Component {
     constructor() {
         super();
         this.state = {
-            restaurant: undefined,
+            restaurant: null,
             isMenuModalOpen: false,
             menu:[],
             totalPrice:0
@@ -187,6 +187,7 @@ export default class Details extends Component {
             console.log(error)
         })
     }
+
 
 
     render() {
